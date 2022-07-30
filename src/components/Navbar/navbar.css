@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 80%;
+  border-bottom: 0.5px solid lightgray;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.logo {
+  margin-left: 9px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4rem;
+  gap: 1rem;
+}
+.login-btn {
+  margin-right: 4rem;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-right: 13px;
+}
+.logo img {
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.signup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.signup-btn img {
+  height: 23px;
+  width: 23px;
+}
+.languageBtn {
+  border: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+}

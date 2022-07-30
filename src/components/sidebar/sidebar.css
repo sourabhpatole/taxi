@@ -1,0 +1,28 @@
+.sidebar {
+  position: absolute;
+  height: 80vh;
+  background-color: #fff;
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  margin: 3px;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style: none;
+  padding: 1rem 2rem;
+}
+.sidebar li {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 2px;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+/* .icon {
+  margin: 20px;
+} */
+h2 {
+  display: none;
+}

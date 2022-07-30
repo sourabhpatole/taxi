@@ -1,0 +1,42 @@
+.first-page {
+  display: flex;
+  flex: 4;
+  flex-wrap: nowrap;
+  margin-left: 7%;
+  margin-top: 3px;
+  height: 86vh;
+  width: 92%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("https://images.pexels.com/photos/2068664/pexels-photo-2068664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+      center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.left-page {
+  display: flex;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 43px;
+  margin-top: 10%;
+}
+.right-page {
+  display: flex;
+  flex: 4;
+}
+.left-head {
+  font-size: 30px;
+  font-family: Titillium Web;
+  font-weight: 600;
+  color: cyan;
+}
+.left-span {
+  font-size: 23px;
+  color: wheat;
+}
