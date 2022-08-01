@@ -1,10 +1,6 @@
-import { useState } from "react";
 import "./fcard.css";
+import List1 from "./List1";
 const Fcard = () => {
-  const handleClick = (id) => {
-    setDisplay(true);
-  };
-  const [display, setDisplay] = useState(false);
   const data = [
     {
       id: "sride",
@@ -29,14 +25,7 @@ const Fcard = () => {
           <div className="radio-option" key={d.id}>
             <form className="option-form" action="">
               <div>
-                {display && (
-                  <input
-                    className="inputtag"
-                    type="radio"
-                    id={d.id}
-                    onClick={(e, id) => handleClick(e.target.value, id)}
-                  />
-                )}
+                <input className="inputtag" type="radio" id={d.id} />
                 <label htmlFor="">{d.name}</label>
               </div>
             </form>
@@ -64,6 +53,9 @@ const Fcard = () => {
             </select>
           </div>
         </div>
+      </div>
+      <div className="form">
+        <List1 />
       </div>
       <div className="search-btn">
         <button>SEARCH</button>

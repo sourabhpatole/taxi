@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import ReorderIcon from "@mui/icons-material/Reorder";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import Sidebar from "../sidebar/Sidebar";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Login from "../login/Login";
 const Navbar = () => {
   const [loginM, setLoginM] = useState(false);
   return (
     <div>
+      {loginM && <Login closeModal={setLoginM} />}
       <div className="navbar">
         <div className="nav-left">
           {/* <div className="side-menu">
@@ -34,7 +33,7 @@ const Navbar = () => {
             <PersonOutlineIcon />
             Login/SignUp
           </button>
-          {loginM && <Login closeModal={setLoginM} />}
+
           <div className="signup-btn">
             <img
               src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png?20151118161041"

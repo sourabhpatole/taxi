@@ -1,10 +1,10 @@
 .first-page {
   display: flex;
-  position: relative;
-  margin-left: 7%;
+  /* position: relative; */
+  margin-left: 1%;
   margin-top: 3px;
-  height: 90vh;
-  width: 105%;
+  height: 94vh;
+  width: 92vw;
   background: linear-gradient(
       rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.2)

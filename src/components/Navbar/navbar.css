@@ -3,8 +3,9 @@
   position: sticky;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: white;
   height: 10vh;
+  width: 92vw;
   border-bottom: 0.5px solid lightgray;
 }
 .nav-left {

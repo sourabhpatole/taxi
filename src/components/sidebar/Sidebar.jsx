@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./sidebar.css";
+import ReorderIcon from "@mui/icons-material/Reorder";
 import FaceIcon from "@mui/icons-material/Face";
 import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import TripOriginIcon from "@mui/icons-material/TripOrigin";
@@ -11,6 +12,10 @@ import ShareIcon from "@mui/icons-material/Share";
 const Sidebar = () => {
   const [display, setDisplay] = useState(false);
   const data = [
+    {
+      name: "",
+      icon: <ReorderIcon />,
+    },
     {
       name: "Login",
       icon: <FaceIcon />,
@@ -48,8 +53,9 @@ const Sidebar = () => {
     <div
       className="sidebar"
       onClick={() => {
-        setDisplay(true);
+        setDisplay(!display);
       }}
+      style={{ width: display ? "150px" : "10px" }}
     >
       {data.map((d) => (
         <div className="side-menu" key={d.name}>

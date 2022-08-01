@@ -1,6 +1,4 @@
 import React from "react";
-import Login from "../../components/login/Login";
-import Second from "../second/Second";
 import Fcard from "./card/Fcard";
 import "./first.css";
 const First = ({ closeModal }) => {
@@ -17,6 +15,7 @@ const First = ({ closeModal }) => {
           <div className="right-card">
             <Fcard />
           </div>
+          {/* <Login /> */}
         </div>
       </div>
     </div>

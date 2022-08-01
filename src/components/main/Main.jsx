@@ -1,13 +1,14 @@
 import React from "react";
 import First from "../../pages/first/First";
+import Second from "../../pages/second/Second";
 import Navbar from "../Navbar/Navbar";
-import Sidebar from "../sidebar/Sidebar";
 import "./main.css";
 const Main = () => {
   return (
     <div className="main">
-      <Sidebar />
+      <Navbar />
       <First />
+      <Second />
     </div>
   );
 };
