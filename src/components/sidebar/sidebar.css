@@ -1,9 +1,7 @@
 .sidebar {
-  position: absolute;
   height: 80vh;
   background-color: #fff;
   display: flex;
-  width: 150px;
   flex: 1;
   align-items: flex-start;
   margin: 3px;
@@ -11,6 +9,9 @@
   flex-direction: column;
   list-style: none;
   padding: 1rem 2rem;
+}
+.menu-name {
+  width: 13px;
 }
 .sidebar li {
   align-items: center;
@@ -24,6 +25,15 @@
 /* .icon {
   margin: 20px;
 } */
-h2 {
-  display: none;
+h2:hover {
+  margin-left: 20px;
+}
+.side-menu {
+  /* width: 50px; */
+  gap: 2rem;
+  margin-right: 5px;
+}
+.side-menu > h2 {
+  /* display: none; */
+  /* width: 50px; */
 }

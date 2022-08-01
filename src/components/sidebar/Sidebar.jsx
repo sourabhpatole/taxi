@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./sidebar.css";
 import FaceIcon from "@mui/icons-material/Face";
 import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
@@ -9,6 +9,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import LocalTaxiIcon from "@mui/icons-material/LocalTaxi";
 import ShareIcon from "@mui/icons-material/Share";
 const Sidebar = () => {
+  const [display, setDisplay] = useState(false);
   const data = [
     {
       name: "Login",
@@ -44,9 +45,19 @@ const Sidebar = () => {
     },
   ];
   return (
-    <div className="sidebar">
+    <div
+      className="sidebar"
+      onClick={() => {
+        setDisplay(true);
+      }}
+    >
       {data.map((d) => (
-        <li>{d.icon}</li>
+        <div className="side-menu" key={d.name}>
+          <li>{d.icon}</li>
+          <div className="menu-name">
+            <h2>{display && d.name}</h2>
+          </div>
+        </div>
       ))}
     </div>
   );

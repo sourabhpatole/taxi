@@ -1,21 +1,47 @@
+import { useState } from "react";
 import "./fcard.css";
 const Fcard = () => {
+  const handleClick = (id) => {
+    setDisplay(true);
+  };
+  const [display, setDisplay] = useState(false);
+  const data = [
+    {
+      id: "sride",
+      name: "SHARE RIDE",
+    },
+    {
+      id: "fcar",
+      name: "SHARE RIDE",
+    },
+    {
+      id: "package",
+      name: "PACKAGES",
+    },
+  ];
   return (
     <div className="card">
       <div className="top">
-        <span>FIND THE BEST PRICES</span>
+        <h4>FIND THE BEST PRICES</h4>
       </div>
       <div className="top-option">
-        <div className="radio-option">
-          <form className="option-form" action="">
-            <input className="inputtag" type="radio" id="sride" />
-            <label htmlFor="">SHARE RIDE</label>
-            <input className="inputtag" type="radio" id="fcar" />
-            <label htmlFor="">FULL CAR</label>
-            <input className="inputtag" type="radio" id="package" />
-            <label htmlFor="">PACKAGES</label>
-          </form>
-        </div>
+        {data.map((d) => (
+          <div className="radio-option" key={d.id}>
+            <form className="option-form" action="">
+              <div>
+                {display && (
+                  <input
+                    className="inputtag"
+                    type="radio"
+                    id={d.id}
+                    onClick={(e, id) => handleClick(e.target.value, id)}
+                  />
+                )}
+                <label htmlFor="">{d.name}</label>
+              </div>
+            </form>
+          </div>
+        ))}
         <div className="dropdown">
           <div className="labeltag">
             <select name="trip-type" id="type-trip">

@@ -47,7 +47,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <Sidebar />
     </div>
   );
 };

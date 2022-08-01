@@ -1,8 +1,9 @@
 import React from "react";
+import Login from "../../components/login/Login";
 import Second from "../second/Second";
 import Fcard from "./card/Fcard";
 import "./first.css";
-const First = () => {
+const First = ({ closeModal }) => {
   return (
     <div>
       <div className="first-page">
@@ -18,7 +19,6 @@ const First = () => {
           </div>
         </div>
       </div>
-      <Second />
     </div>
   );
 };

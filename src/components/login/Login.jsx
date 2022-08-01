@@ -8,7 +8,7 @@ const Login = ({ closeModal }) => {
         <div className="modal-btn">
           <button
             onClick={() => {
-              closeModal(false);
+              closeModal(closeModal(false));
             }}
           >
             X
