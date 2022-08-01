@@ -5,13 +5,15 @@ const Login = ({ closeModal }) => {
   return (
     <div className="loginCard">
       <div className="main-box">
-        <button
-          onClick={() => {
-            closeModal(false);
-          }}
-        >
-          X
-        </button>
+        <div className="modal-btn">
+          <button
+            onClick={() => {
+              closeModal(false);
+            }}
+          >
+            X
+          </button>
+        </div>
         <img
           className="image-tag"
           src="https://thumbs.dreamstime.com/b/taxi-icon-taxi-logo-taxi-icon-taxi-logo-vector-icon-172647004.jpg"

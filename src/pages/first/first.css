@@ -1,11 +1,11 @@
 .first-page {
   display: flex;
   flex: 4;
-  flex-wrap: nowrap;
+  position: relative;
   margin-left: 7%;
   margin-top: 3px;
-  height: 86vh;
-  width: 92%;
+  height: 90vh;
+  width: 100%;
   background: linear-gradient(
       rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.2)

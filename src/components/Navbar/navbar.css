@@ -4,7 +4,7 @@
   position: sticky;
   justify-content: space-between;
   background-color: #fff;
-  height: 80%;
+  height: 10vh;
   border-bottom: 0.5px solid lightgray;
 }
 .nav-left {
@@ -19,7 +19,7 @@
   align-content: center;
 }
 .logo {
-  margin-left: 9px;
+  margin-left: -15px;
 }
 .nav-right {
   display: flex;

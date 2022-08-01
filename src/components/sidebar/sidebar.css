@@ -3,6 +3,7 @@
   height: 80vh;
   background-color: #fff;
   display: flex;
+  width: 150px;
   flex: 1;
   align-items: flex-start;
   margin: 3px;

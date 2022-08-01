@@ -11,11 +11,11 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <div className="nav-left">
-          <div className="side-menu">
+          {/* <div className="side-menu">
             <ReorderIcon
               style={{ marginLeft: "36px", border: "2px solid black" }}
             />
-          </div>
+          </div> */}
           <div className="logo">
             <img
               src="https://image.shutterstock.com/z/stock-vector-taxi-logo-concept-on-light-background-taxi-point-graphic-icon-682377904.jpg"

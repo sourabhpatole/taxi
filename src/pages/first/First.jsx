@@ -13,7 +13,9 @@ const First = () => {
           </div>
         </div>
         <div className="right-page">
-          <Fcard />
+          <div className="right-card">
+            <Fcard />
+          </div>
         </div>
       </div>
       <Second />

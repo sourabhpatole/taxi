@@ -9,40 +9,45 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import LocalTaxiIcon from "@mui/icons-material/LocalTaxi";
 import ShareIcon from "@mui/icons-material/Share";
 const Sidebar = () => {
+  const data = [
+    {
+      name: "Login",
+      icon: <FaceIcon />,
+    },
+    {
+      name: "History",
+      icon: <TripOriginIcon />,
+    },
+    {
+      name: "EWallet",
+      icon: <AccountBalanceWalletIcon />,
+    },
+    {
+      name: "Notification",
+      icon: <NotificationsIcon />,
+    },
+    {
+      name: "Help",
+      icon: <HelpOutlineIcon />,
+    },
+    {
+      name: "Promotion",
+      icon: <FavoriteBorderIcon />,
+    },
+    {
+      name: "Blip Driver",
+      icon: <LocalTaxiIcon />,
+    },
+    {
+      name: "Share",
+      icon: <ShareIcon />,
+    },
+  ];
   return (
     <div className="sidebar">
-      <li>
-        <FaceIcon className="icon" />
-        <h2>Login</h2>
-      </li>
-      <li>
-        <TripOriginIcon className="icon" />
-        <h2>History</h2>
-      </li>
-      <li>
-        <AccountBalanceWalletIcon className="icon" />
-        <h2>EWallet</h2>
-      </li>
-      <li>
-        <NotificationsIcon className="icon" />
-        <h2>Notification</h2>
-      </li>
-      <li>
-        <HelpOutlineIcon className="icon" />
-        <h2>Help</h2>
-      </li>
-      <li>
-        <FavoriteBorderIcon className="icon" />
-        <h2>Promotion</h2>
-      </li>
-      <li>
-        <LocalTaxiIcon className="icon" />
-        <h2>Blip Driver</h2>
-      </li>
-      <li>
-        <ShareIcon className="icon" />
-        <h2>Share Blip</h2>
-      </li>
+      {data.map((d) => (
+        <li>{d.icon}</li>
+      ))}
     </div>
   );
 };
