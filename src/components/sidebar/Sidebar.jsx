@@ -55,7 +55,7 @@ const Sidebar = () => {
       onClick={() => {
         setDisplay(!display);
       }}
-      style={{ width: display ? "150px" : "10px" }}
+      style={{ width: display ? "150px" : "5vh" }}
     >
       {data.map((d) => (
         <div className="side-menu" key={d.name}>

@@ -1,0 +1,31 @@
+.third {
+  height: 100vh;
+  width: 100vw;
+  height: 500px;
+  background: url("https://image.cnbcfm.com/api/v1/image/103137890-GettyImages-494411536.jpg?v=1651263022")
+    no-repeat;
+  object-fit: contain;
+}
+
+.fontletter {
+  color: aliceblue;
+  display: flex;
+  height: 30vh;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 230px;
+  margin-right: 200px;
+}
+.fontletter h1,
+h2 {
+  font-size: 120px;
+}
+.fontletter span {
+  transform: rotate(180deg);
+  font-size: 150px;
+}
+.spanletter {
+  display: flex;
+  flex-direction: row;
+}

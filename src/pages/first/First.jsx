@@ -15,7 +15,6 @@ const First = ({ closeModal }) => {
           <div className="right-card">
             <Fcard />
           </div>
-          {/* <Login /> */}
         </div>
       </div>
     </div>
