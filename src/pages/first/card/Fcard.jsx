@@ -24,7 +24,7 @@ const Fcard = () => {
         {data.map((d) => (
           <div className="radio-option" key={d.id}>
             <form className="option-form" action="">
-              <div>
+              <div className="forminput">
                 <input className="inputtag" type="radio" id={d.id} />
                 <label htmlFor="">{d.name}</label>
               </div>

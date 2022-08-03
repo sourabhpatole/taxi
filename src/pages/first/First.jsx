@@ -9,6 +9,7 @@ const First = ({ closeModal }) => {
           <h4 className="left-head">Welcome!</h4>
           <div className="left-span">
             <h1>WE TAKE YOU CITY TO CITY</h1>
+            <button>MORE INFORMATION</button>
           </div>
         </div>
         <div className="right-page">

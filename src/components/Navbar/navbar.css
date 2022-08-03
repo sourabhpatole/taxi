@@ -1,11 +1,11 @@
 .navbar {
   display: flex;
-  position: sticky;
+  position: static;
   align-items: center;
   justify-content: space-between;
   background-color: white;
   height: 10vh;
-  width: 92vw;
+  width: 100vw;
   border-bottom: 0.5px solid lightgray;
 }
 .nav-left {
@@ -20,7 +20,7 @@
   align-content: center;
 }
 .logo {
-  margin-left: -15px;
+  margin-left: 45px;
 }
 .nav-right {
   display: flex;

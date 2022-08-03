@@ -42,10 +42,10 @@ const Second = () => {
           <br />
           way to travel from one city to another
         </span>
+        <h4 style={{ fontWeight: 600, color: "#63C1EA" }}>
+          OUR CITY2CITY SERVICE{" "}
+        </h4>
       </div>
-      <span style={{ fontWeight: 600, color: "#63C1EA" }}>
-        OUR CITY2CITY SERVICE{" "}
-      </span>
       <h1>We offer the best for you</h1>
       <div className="main-container">
         {data.map((d) => (
@@ -79,6 +79,7 @@ const Second = () => {
                     color: d.paint,
                     borderColor: d.paint,
                   }}
+                  className="rideBtn"
                 >
                   BOOK YOUR RIDE NOW
                 </button>

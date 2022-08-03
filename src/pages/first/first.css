@@ -1,9 +1,8 @@
 .first-page {
   display: flex;
-  /* position: relative; */
-  margin-left: 1%;
-  width: 95vw;
-  height: 100vh;
+  margin-left: 50px;
+  width: 100vw;
+  height: 90vh;
   margin-top: 3px;
   background: linear-gradient(
       rgba(255, 255, 255, 0.1),
@@ -40,4 +39,12 @@
 .left-span {
   font-size: 23px;
   color: wheat;
+}
+.left-span button {
+  border: none;
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ffeb34;
+  cursor: pointer;
 }

@@ -19,7 +19,7 @@ const Login = ({ closeModal }) => {
           src="https://thumbs.dreamstime.com/b/taxi-icon-taxi-logo-taxi-icon-taxi-logo-vector-icon-172647004.jpg"
           alt="logo"
         />
-        <div className="main-container">
+        <div className="main-contain">
           <h3>Login or Create account</h3>
           <p>Compare prices and access exclusive offers</p>
         </div>
