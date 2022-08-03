@@ -27,7 +27,7 @@
   align-items: flex-start;
   flex-direction: column;
   margin: 40px;
-  justify-content: start;
+  /* justify-content: start; */
 }
 .head {
   margin-bottom: 20px;
