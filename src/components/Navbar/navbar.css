@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  position: static;
+  position: sticky;
   align-items: center;
   justify-content: space-between;
   background-color: white;
@@ -37,6 +37,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  cursor: pointer;
   padding-right: 13px;
 }
 .logo img {
@@ -48,6 +49,7 @@
 .signup-btn {
   display: flex;
   align-items: center;
+  cursor: pointer;
   justify-content: center;
   gap: 0.5rem;
 }

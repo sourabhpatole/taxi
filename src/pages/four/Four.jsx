@@ -19,7 +19,7 @@ const four = () => {
     <div className="four">
       <div className="four-left">
         <img
-          src="https://images.unsplash.com/photo-1541560052-5e137f229371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          src="https://images.pexels.com/photos/5717641/pexels-photo-5717641.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt=""
         />
       </div>

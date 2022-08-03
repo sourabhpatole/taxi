@@ -59,7 +59,7 @@ const Sidebar = () => {
     >
       {data.map((d) => (
         <div className="side-menu" key={d.name}>
-          <li>{d.icon}</li>
+          <li className="menu-icon">{d.icon}</li>
           <div className="menu-name">
             <h2>{display && d.name}</h2>
           </div>
