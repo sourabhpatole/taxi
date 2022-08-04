@@ -3,7 +3,7 @@ import TripOriginIcon from "@mui/icons-material/TripOrigin";
 import MailIcon from "@mui/icons-material/Mail";
 const Five = () => {
   return (
-    <div className="main">
+    <div className="main-five">
       <div className="five">
         <div className="five-left">
           <div className="logo">
