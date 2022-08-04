@@ -12,11 +12,11 @@ const Main = () => {
     <div className="main">
       <Navbar />
       <div className="pages">
-        {/* <First />
+        <First />
         <Second />
         <Third />
         <Four />
-        <Five /> */}
+        <Five />
         <Six />
       </div>
     </div>
